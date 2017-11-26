@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LandingScreen: UIViewController {
+class GreetMeScreen: UIViewController {
     @IBOutlet var greetMeButton: UIButton?
     @IBOutlet var userInput: UITextField?
     @IBOutlet var greetMeDisplay: UILabel?
