@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  triplet
 //
-//  Created by bukalapak on 11/21/17.
-//  Copyright © 2017 BukaLapak. All rights reserved.
+//  Created by Milzam Abi Karami on 11/21/17.
+//  Copyright © 2017 VestaMilzam. All rights reserved.
 //
 
 import UIKit
