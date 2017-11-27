@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3FE1270F1FC9943200EA1008 /* GreetMeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1270E1FC9943200EA1008 /* GreetMeScreen.swift */; };
+		3FE127121FCAB21D00EA1008 /* TableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE127111FCAB21D00EA1008 /* TableView.storyboard */; };
+		3FE127141FCAB54700EA1008 /* ItemListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE127131FCAB54700EA1008 /* ItemListScreen.swift */; };
 		D2014D671FC427ED0027880F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2014D661FC427ED0027880F /* AppDelegate.swift */; };
 		D2014D6C1FC427ED0027880F /* GreetMe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2014D6A1FC427ED0027880F /* GreetMe.storyboard */; };
 		D2014D6E1FC427ED0027880F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2014D6D1FC427ED0027880F /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		3FE1270E1FC9943200EA1008 /* GreetMeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetMeScreen.swift; sourceTree = "<group>"; };
+		3FE127111FCAB21D00EA1008 /* TableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableView.storyboard; sourceTree = "<group>"; };
+		3FE127131FCAB54700EA1008 /* ItemListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListScreen.swift; sourceTree = "<group>"; };
 		D2014D631FC427ED0027880F /* triplet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = triplet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2014D661FC427ED0027880F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2014D6B1FC427ED0027880F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GreetMe.storyboard; sourceTree = "<group>"; };
@@ -39,8 +43,19 @@
 			isa = PBXGroup;
 			children = (
 				3FE1270E1FC9943200EA1008 /* GreetMeScreen.swift */,
+				3FE127131FCAB54700EA1008 /* ItemListScreen.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3FE127101FCAB1CC00EA1008 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D2014D6A1FC427ED0027880F /* GreetMe.storyboard */,
+				D2014D6F1FC427ED0027880F /* LaunchScreen.storyboard */,
+				3FE127111FCAB21D00EA1008 /* TableView.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		D2014D5A1FC427EC0027880F = {
@@ -63,10 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				3FE1270D1FC9939300EA1008 /* ViewController */,
+				3FE127101FCAB1CC00EA1008 /* Storyboards */,
 				D2014D661FC427ED0027880F /* AppDelegate.swift */,
-				D2014D6A1FC427ED0027880F /* GreetMe.storyboard */,
 				D2014D6D1FC427ED0027880F /* Assets.xcassets */,
-				D2014D6F1FC427ED0027880F /* LaunchScreen.storyboard */,
 				D2014D721FC427ED0027880F /* Info.plist */,
 			);
 			path = triplet;
@@ -133,6 +147,7 @@
 			files = (
 				D2014D711FC427ED0027880F /* LaunchScreen.storyboard in Resources */,
 				D2014D6E1FC427ED0027880F /* Assets.xcassets in Resources */,
+				3FE127121FCAB21D00EA1008 /* TableView.storyboard in Resources */,
 				D2014D6C1FC427ED0027880F /* GreetMe.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +161,7 @@
 			files = (
 				3FE1270F1FC9943200EA1008 /* GreetMeScreen.swift in Sources */,
 				D2014D671FC427ED0027880F /* AppDelegate.swift in Sources */,
+				3FE127141FCAB54700EA1008 /* ItemListScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
